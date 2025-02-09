@@ -105,7 +105,7 @@ header img{
     position: absolute;
     top: 25px;
     left: 0px;
-    background-color: #000000;
+    background-color: #ffffff;
     display: none;
 }
 
@@ -115,7 +115,6 @@ header img{
 }
 
 .menu li ul li{
-    border:1px solid #000000;
     display:block;
     width:200px;
     }
@@ -123,10 +122,11 @@ header img{
     .menu2 {
         list-style: none;
         display: flex;
-        border: 1px solid #000000;
+        
         float:left;
         width: 200px;
         margin-top: 4px;
+        border-radius: 5px;
     }
     
     .menu2 li {
