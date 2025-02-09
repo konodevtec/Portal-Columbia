@@ -170,18 +170,38 @@ header img{
         }
 
 
-    body{
-        background-image: linear-gradient(to bottom,var(--cor0), black);
+
+    main{
+        min-width: 300px;
+        max-width: 1500px;
+        margin: auto;
+        margin-top: 15px;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.443);
+        border-radius: 10px
     }
 
+    main img.foto1{
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    main h1{
+        font-family: Neulis_cursive_medium;
+    }
+
+    main h3{
+        font-family: Neulis_sans_light;
+    }
     footer{
         display:flex;
         flex-direction: column;
-    
         width:100%;
         background-color:white ;
         border-top: 1px transparent black;
-        margin-top: 500px;
+       margin-top: 15px;
     }
     
     footer > div{
