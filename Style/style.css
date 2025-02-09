@@ -39,6 +39,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
@@ -56,8 +57,7 @@ header {
     width: 100%;
     background-color: rgb(255, 255, 255);
     font-family: var(--font1);
-    padding: 20px;
-    border-bottom: 1px solid black;
+    padding: 20px
 }
 
 header img{
@@ -65,6 +65,7 @@ header img{
     width: 200px;
     margin-top: 10px;
     margin-left: 15px;
+    margin-bottom: -15px
 }
 
 
@@ -200,7 +201,6 @@ header img{
         flex-direction: column;
         width:100%;
         background-color:white ;
-        border-top: 1px transparent black;
        margin-top: 15px;
     }
     
@@ -240,3 +240,26 @@ header img{
         transform: translate(-1px, -1px);
         transition: transform .3s;
     }
+
+    div > a > input[type=submit]{
+        display:flex;
+        font-size: 1em;
+        width: 10%;
+        height: 40px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 90%;
+        margin-bottom: 10px;
+        margin-top: -25px;
+        padding: 10px;
+        text-decoration:none;
+    }
+    div > a > input[type=submit]:hover{
+        background-color: var(--cor0);
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
