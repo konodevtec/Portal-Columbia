@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:Neulis_sans_light;
+    src: url(../Fonts/Neulis/fonnts.com-Neulis_Sans_Light.otf);
+}
+
+@font-face {
+    font-family:Neulis_sans_regular;
+    src: url(../Fonts/Neulis/fonnts.com-Neulis_Sans_Regular.otf);
+}
+
+@font-face {
+    font-family:Neulis_sans_medium;
+    src: url(../Fonts/Neulis/fonnts.com-Neulis_Sans_Medium.otf);
+}
+
+@font-face {
+    font-family:Neulis_sans_semi-bold;
+    src: url(../Fonts/Neulis/fonnts.com-Neulis_Sans_Semi_Bold.otf);
+}
+
+@font-face {
+    font-family:Neulis_cursive_regular;
+    src: url(../Fonts/Neulis/fonnts.com-Neulis_Cursive_Regular.otf);
+}
+
+@font-face {
+    font-family:Neulis_cursive_medium;
+    src: url(../Fonts/Neulis/fonnts.com-Neulis_Cursive_Medium.otf);
+}
+
+@font-face {
+    font-family:Neulis_cursive_semi-bold;
+    src: url(../Fonts/Neulis/fonnts.com-Neulis_Cursive_Semi_Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+h1{
+    font-family: Neulis_cursive_semi-bold;
+}
