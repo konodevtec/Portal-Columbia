@@ -84,7 +84,7 @@ header img{
 }
 
 .menu li a {
-    color: var(--cor0);
+    color: #096bc6;
     text-decoration: none;
     padding: 5px 10px;
     display:block;
@@ -136,7 +136,7 @@ header img{
     }
     
     .menu2 li a {
-        color: var(--cor0);
+        color: #096bc6;
         text-decoration: none;
         display:block;
         font-weight:lighter;
@@ -196,56 +196,13 @@ header img{
     main h3{
         font-family: Neulis_sans_light;
     }
-    footer{
-        display:flex;
-        flex-direction: column;
-        width:100%;
-        background-color:white ;
-       margin-top: 15px;
-    }
     
-    footer > div{
-        display: flex;
-        justify-content: center;
-    }
-    
-    footer > div > span{
-        padding: 20px;
-        font-size: 1.5em;
-    }
-    
-    footer .social_content .social:hover{
-        transform: translate(-1px, -1px);
-        transition: transform .3s;
-    }
-    
-    footer > div > span> a > i{
-        color: var(--cor1);
-        
-    }
-    
-    footer > div > span p{
-        color: var(--cor0);
-        padding-bottom: 20px;
-        font-size: 0.5em;
-        font-weight: 1000;
-    }
-    
-    footer .contato a{
-        text-decoration: none;
-        text-align: center;
-    }
-    
-    footer .contato p:hover{
-        transform: translate(-1px, -1px);
-        transition: transform .3s;
-    }
 
     div > a > input[type=submit]{
         display:flex;
         font-size: 1em;
-        width: 10%;
-        height: 40px;
+        width: 8%;
+        height: 8%;
         background-color: #49a09d;
         color: white;
         border: none;
@@ -263,3 +220,8 @@ header img{
         text-decoration: none;
     }
     
+    footer{
+        margin:2%;
+        text-align: center;
+        color: #096bc6;
+    }
