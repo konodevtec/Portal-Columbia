@@ -102,6 +102,7 @@ header img{
     border-radius: 5px;
 }
 
+
 .menu li ul {
     position: absolute;
     top: 25px;
@@ -153,7 +154,13 @@ header img{
         text-shadow: 0px 0px 5px #fff;
         border-radius: 5px;
     }
-    
+
+    .menu2 li a:focus-within{
+        background-color:var(--cor1);
+        color: var(--cor0);
+        border: none;
+    }
+
     .menu2 li ul {
         position: absolute;
         top: 25px;
