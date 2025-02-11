@@ -62,10 +62,11 @@ header {
 
 header img{
     display: inline-block;
-    width: 200px;
+    width: 150px;
     margin-top: 10px;
     margin-left: 15px;
     margin-bottom: -15px
+    
 }
 
 
@@ -74,10 +75,13 @@ header img{
     display: flex;
     width: 100px;
     font-family: var(--font1);
+    font-size: 0.9em;
     text-align: center;
-    margin: 20px;
-    margin-bottom: -20px;
+    margin-left: 250px;
+    margin-bottom: -0px;
+    margin-top: -39px
 }
+
 
 .menu li {
     position: relative;
@@ -89,7 +93,7 @@ header img{
     text-decoration: none;
     padding: 5px 10px;
     display:block;
-    width: 200px;
+    width: 100px;
     font-weight: 1000;
    
 }
@@ -114,7 +118,7 @@ header img{
     
 }
 
-.menu li:hover ul,
+.menu li:focus-within ul,
 .menu li.over ul {
     display: block;
 }
