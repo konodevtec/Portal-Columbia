@@ -93,7 +93,7 @@ header img{
     text-decoration: none;
     padding: 5px 10px;
     display:block;
-    width: 100px;
+    width: 150px;
     font-weight: 1000;
    
 }
@@ -132,7 +132,7 @@ header img{
         list-style: none;
         display: flex;
         float:left;
-        width: 200px;
+        width: 150px;
         margin-top: 4px;
         border-radius: 5px;
     }
