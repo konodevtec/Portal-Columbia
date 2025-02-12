@@ -99,7 +99,7 @@ header img{
 }
 
 .menu li a:hover {
-    background: var(--cor1);
+    background: var(--cor0);
     color: black;
     -moz-box-shadow: 0 3px 10px 0 #CCC;
     -webkit-box-shadow: 0 3px 10px 0 #ccc;
@@ -152,7 +152,7 @@ header img{
 
     
     .menu2 li a:hover {
-        background: var(--cor1);
+        background: var(--cor0);
         color: rgb(0, 0, 0);
         -moz-box-shadow: 0 3px 10px 0 #CCC;
         -webkit-box-shadow: 0 3px 10px 0 #ccc;
@@ -189,8 +189,8 @@ header img{
         .menu3{
             list-style:none;
             float:left;
-            margin-left: 90%;
-            margin-top: -2%;
+            margin-left: 95%;
+            margin-top: -1.5%;
             }
         
         
@@ -200,7 +200,7 @@ header img{
         }
         
         .bi{
-            font-size: 3.5vh;
+            font-size: 3vh;
             width: 50px;
         }
 
@@ -221,7 +221,7 @@ header img{
         }
         
         .menu3 li a:hover {
-            background: var(--cor1);
+            background: var(--cor0);
             color: black;
             -moz-box-shadow: 0 3px 10px 0 #CCC;
             -webkit-box-shadow: 0 3px 10px 0 #ccc;
@@ -303,4 +303,5 @@ header img{
         margin:2%;
         text-align: center;
         color: #096bc6;
+        font-family: (var(--font1));
     }
